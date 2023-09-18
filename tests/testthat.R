@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(edsolusion)
+library(edsolution)
 
-test_check("edsolusion")
+test_check("edsolution")
