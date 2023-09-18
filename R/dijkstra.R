@@ -22,8 +22,6 @@
 #'
 #'  dijkstra(sample_graph, 3)
 
-
-
 dijkstra <-function(graph,init.node){
   graph_column_names<- c("v1", "v2", "w")
   supplied_column_names <- colnames(graph)
