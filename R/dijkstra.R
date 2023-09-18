@@ -57,3 +57,11 @@ dijkstra <-function(graph,init.node){
   }
   return(tentative_distance)
 }
+
+#' This is the graph data from wiki data
+#'
+#' @name wiki_graph
+#' @docType data
+#' @references \url{https://en.wikipedia.org/wiki/Dijkstra27s_algorithm}
+#' @keywords data
+NULL
