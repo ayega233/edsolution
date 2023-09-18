@@ -1,0 +1,22 @@
+Package: edsolusion
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: person1("Ayesha", "Gamage", email = "ayega981@student.liu.se",role = c(student))
+        person2("Chandika","Nishshanka,"email=chahe114@student.liu.se","role=student" )
+Maintainer: Who to complain to <ayega981@student.liu.se>
+Description: A package with two functions which finding the greatest common divisor based on 
+            Euclidian algorithm and finding the shortest path between two nodes in weighted graph 
+            based on Dijkstra algorithm.
+            The package is designed to provide an efficient method for computing the 
+            greatest common divisor (GCD) of two integers (numbers). The process of 
+            this function identifies the largest number that can divide both integers 
+            without leaving a remainder.
+            In function Dijkstra you provide the data, first argument as a 
+            data frame with three variables and variables should be edges of the graph with the weight of edge 
+            and second argument should be started note as initial node. 
+            Then function returns the shortest path from the initial node to each node as a vector. 
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
